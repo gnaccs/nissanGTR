@@ -1,0 +1,206 @@
+<!-- Nissan GT-R Configurator -->
+
+<!DOCTYPE html>
+ <link rel="stylesheet" href="theme.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nissan GT-R Configurator - Customize your dream GT-R.">
+    <meta name="keywords" content="Nissan, GT-R, Configurator, Car, Customization">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nissan GT-R Configurator</title>
+</head>
+<body>
+    <header>
+        <h1>Nissan GT-R Configurator</h1>
+        <nav>
+            <ul>
+                <li><a href="#gt-r-r32">GT-R R32</a></li>
+                <li><a href="#gt-r-r33">GT-R R33</a></li>
+                <li><a href="#gt-r-r34">GT-R R34</a></li>
+                <li><a href="#gt-r-r35">GT-R R35</a></li>
+                <li><a href="#gt-r-nismo">GT-R Nismo</a></li>
+                <li><a href="#gt-r-specv">GT-R Spec V</a></li>
+                <li><a href="#gt-r-track">GT-R Track Edition</a></li>
+                <li><a href="#gt-r-premium">GT-R Premium</a></li>
+                <li><a href="#gt-r-50th">GT-R 50th Anniversary</a></li>
+                <li><a href="#gt-r-tspec">GT-R T-Spec Edition</a></li>
+                <li><a href="#help">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gt-r-r32">
+            <h2>Nissan GT-R R32</h2>
+            <form id="r32-form">
+                <label for="color-r32">Color:</label>
+                <select id="color-r32">
+                    <option value="Gun Gray Metallic">Gun Gray Metallic</option>
+                    <option value="Black Pearl Metallic">Black Pearl Metallic</option>
+                </select>
+                <label for="features-r32">Features:</label>
+                <textarea id="features-r32" readonly>All-wheel drive, RB26DETT engine</textarea>
+                <button type="button" onclick="calculateQuote('R32', 60000)">Calculate Quote</button>
+            </form>
+        </section>
+
+        <section id="gt-r-r33">
+            <h2>Nissan GT-R R33</h2>
+            <form id="r33-form">
+                <label for="color-r33">Color:</label>
+                <select id="color-r33">
+                    <option value="Midnight Purple">Midnight Purple</option>
+                    <option value="Spark Silver Metallic">Spark Silver Metallic</option>
+                </select>
+                <label for="features-r33">Features:</label>
+                <textarea id="features-r33" readonly>Improved aerodynamics, RB26DETT engine</textarea>
+                <button type="button" onclick="calculateQuote('R33', 65000)">Calculate Quote</button>
+            </form>
+        </section>
+
+        <section id="gt-r-r34">
+            <h2>Nissan GT-R R34</h2>
+            <form id="r34-form">
+                <label for="color-r34">Color:</label>
+                <select id="color-r34">
+                    <option value="Bayside Blue">Bayside Blue</option>
+                    <option value="Active Red">Active Red</option>
+                </select>
+                <label for="features-r34">Features:</label>
+                <textarea id="features-r34" readonly>Multi-function display, RB26DETT engine</textarea>
+                <button type="button" onclick="calculateQuote('R34', 75000)">Calculate Quote</button>
+            </form>
+        </section>
+
+        <section id="gt-r-r35">
+            <h2>Nissan GT-R R35</h2>
+            <form id="r35-form">
+                <label for="color-r35">Color:</label>
+                <select id="color-r35">
+                    <option value="Pearl White">Pearl White</option>
+                    <option value="Super Silver">Super Silver</option>
+                </select>
+                <label for="features-r35">Features:</label>
+                <textarea id="features-r35" readonly>Advanced AWD system, 3.8L Twin-Turbo V6</textarea>
+                <button type="button" onclick="calculateQuote('R35', 110000)">Calculate Quote</button>
+            </form>
+        </section>
+
+        <section id="gt-r-nismo">
+            <h2>Nissan GT-R Nismo</h2>
+            <form id="nismo-form">
+                <label for="color-nismo">Color:</label>
+                <select id="color-nismo">
+                    <option value="Nismo Stealth Gray">Nismo Stealth Gray</option>
+                    <option value="Super Silver">Super Silver</option>
+                </select>
+                <label for="features-nismo">Features:</label>
+                <textarea id="features-nismo" readonly>Recaro® seats, 600 HP engine</textarea>
+                <button type="button" onclick="calculateQuote('Nismo', 210000)">Calculate Quote</button>
+            </form>
+        </section>
+
+        <section id="gt-r-specv">
+            <h2>Nissan GT-R Spec V</h2>
+            <form id="specv-form">
+                <label for="color-specv">Color:</label>
+                <select id="color-specv">
+                    <option value="Ultimate Opal Black">Ultimate Opal Black</option>
+                    <option value="Super Silver">Super Silver</option>
+                </select>
+                <label for="features-specv">Features:</label>
+                <textarea id="features-specv" readonly>Carbon ceramic brakes, Nismo tuned suspension</textarea>
+                <button type="button" onclick="calculateQuote('Spec V', 125000)">Calculate Quote</button>
+            </form>
+        </section>
+
+        <section id="gt-r-track">
+            <h2>Nissan GT-R Track Edition</h2>
+            <form id="track-form">
+                <label for="color-track">Color:</label>
+                <select id="color-track">
+                    <option value="Solid Red">Solid Red</option>
+                    <option value="Jet Black Pearl">Jet Black Pearl</option>
+                </select>
+                <label for="features-track">Features:</label>
+                <textarea id="features-track" readonly>Titanium exhaust, Track-specific tuning</textarea>
+                <button type="button" onclick="calculateQuote('Track Edition', 130000)">Calculate Quote</button>
+            </form>
+        </section>
+
+        <section id="gt-r-premium">
+            <h2>Nissan GT-R Premium</h2>
+            <form id="premium-form">
+                <label for="color-premium">Color:</label>
+                <select id="color-premium">
+                    <option value="Jet Black Pearl">Jet Black Pearl</option>
+                    <option value="Pearl White">Pearl White</option>
+                    <option value="Gun Metallic">Gun Metallic</option>
+                </select>
+                <label for="features-premium">Features:</label>
+                <textarea id="features-premium" readonly>Bose® Audio System, Carbon fiber interior trim</textarea>
+                <button type="button" onclick="calculateQuote('Premium', 115000)">Calculate Quote</button>
+            </form>
+        </section>
+
+        <section id="gt-r-50th">
+            <h2>Nissan GT-R 50th Anniversary</h2>
+            <form id="50th-form">
+                <label for="color-50th">Color:</label>
+                <select id="color-50th">
+                    <option value="Bayside Blue">Bayside Blue</option>
+                    <option value="Super Silver">Super Silver</option>
+                </select>
+                <label for="features-50th">Features:</label>
+                <textarea id="features-50th" readonly>Unique badges, 50th anniversary interior</textarea>
+                <button type="button" onclick="calculateQuote('50th Anniversary', 120000)">Calculate Quote</button>
+            </form>
+        </section>
+
+        <section id="gt-r-tspec">
+            <h2>Nissan GT-R T-Spec Edition</h2>
+            <form id="tspec-form">
+                <label for="color-tspec">Color:</label>
+                <select id="color-tspec">
+                    <option value="Millennium Jade">Millennium Jade</option>
+                    <option value="Midnight Purple">Midnight Purple</option>
+                </select>
+                <label for="features-tspec">Features:</label>
+                <textarea id="features-tspec" readonly>Exclusive color options, Advanced performance</textarea>
+                <button type="button" onclick="calculateQuote('T-Spec Edition', 140000)">Calculate Quote</button>
+            </form>
+        </section>
+
+        <section id="help">
+            <h2>Help</h2>
+            <p>For assistance, please refer to our <a href="help.html">Help Wiki</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;  Nissan GT-R Configurator.</p>
+    </footer>
+
+    <script>
+        // Function to calculate the quote and display the result in an alert
+        function calculateQuote(model, basePrice) {
+            // Customizations can slightly affect the price (e.g., color)
+            let finalPrice = basePrice;
+
+            // Example: adding $1000 for premium colors (can be customized further)
+            const selectedColor = document.querySelector(`#${model.replace(/\s/g, '').toLowerCase()}-form select`).value;
+            if (selectedColor.includes('Pearl') || selectedColor.includes('Purple') || selectedColor.includes('Bayside')) {
+                finalPrice += 1000;
+            }
+
+            alert(`The estimated price for the Nissan GT-R ${model} is $${finalPrice.toLocaleString()}`);
+        }
+    </script>
+</body>
+</html>
+<footer>
+        <p>&copy; Nissan GT-R Enthusiasts</p>
+        <a href="home.html">Return to Home</a>
+    </footer>

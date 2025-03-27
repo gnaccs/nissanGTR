@@ -1,0 +1,52 @@
+# Summer Theme
+
+body {
+    background-color: #ffeb3b; /* Bright yellow background */
+    color: #3e2723; /* Dark brown text color */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #ff9800; /* Orange header */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #ff5722; /* Deep orange navigation */
+    padding: 15px;
+}
+
+nav a {
+    color: white; /* White text for links */
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+
+footer {
+    background-color: #795548; /* Brown footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.button {
+    background-color: #4caf50; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+<footer>
+        <p>&copy; Nissan GT-R Enthusiasts</p>
+        <a href="home.html">Return to Home</a>
+    </footer>
